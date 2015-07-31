@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="mpointApp">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <title>Google Phone Gallery</title>
+ <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/animations.css"> -->
+
+
+  <script src="bower_components/angular/angular.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+
+  <script src="js/app.js"></script>
+
+  <script src="js/services/customers.js"></script>
+  <script src="js/services/customerDetail.js"></script>
+
+  <script src="js/controllers.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li><a ui-sref="home">Home</a></li>
+    <li><a ui-sref="about">About</a></li>
+  </ul>
+</nav>
+
+  <div class="container">
+    <div ui-view class="view-frame"></div>
+  </div>
+
+</body>
+</html>
