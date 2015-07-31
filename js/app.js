@@ -5,7 +5,7 @@
 var mpointApp = angular.module('mpointApp', [
  // 'phonecatAnimations',
   'custList',
- // 'custDetail',
+  'custDetail',
   'mpointControllers',
  // 'checkmarkFilters',
   //'phonecatServices'
@@ -41,15 +41,13 @@ mpointApp.config(function($stateProvider, $urlRouterProvider) {
 
       .state('cust', {
           url: '/customers/:custacc',
-          templateUrl: 'partials/phone-detail.html',
-          controller: function ($scope, customers, $stateParams) {
-              customers.success(function (data) {
+          templateUrl: 'partials/customer-detail.html',
+          controller: function ($scope, custdetail, $stateParams) {
+              custdetail.success(function (data) {
 
                   for(var i = 0; i < data.Customers.CustomerList.length; i++) {
-                      if(data.Customers.CustomerList[i].custAcc === $stateParams.custacc) {
+                      if(data.Customers.CustomerList[i].CustAcc === $stateParams.custacc) {
                            $scope.id = i;
-
-
                       }
                   }
 

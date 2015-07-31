@@ -2,112 +2,112 @@
     "Customers": {
         "CustomerList": [
             {
-                "custAcc": "1101",
+                "CustAcc": "1101",
                 "Name": "Forest & Wholesales",
                 "Phone": "+37062150793",
                 "DefaultAddress": "Savanorių pr.304 A, 49453 Kaunas LT",
                 "Blocked": "1"
             },
             {
-                "custAcc": "1103",
+                "CustAcc": "1103",
                 "Name": "Cave Wholesales",
                 "Phone": "+37062238841",
                 "DefaultAddress": "Ežero g. 9 Lazdijai,",
                 "Blocked": "2"
             },
             {
-                "custAcc": "1104",
+                "CustAcc": "1104",
                 "Name": "Desert Wholesales",
                 "Phone": "+37062347123",
                 "DefaultAddress": "Naraukelio k. Prienai,",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1111",
+                "CustAcc": "1111",
                 "Name": "Adventure Services",
                 "Phone": "+37062837654",
                 "DefaultAddress": "",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1201",
+                "CustAcc": "1201",
                 "Name": "parrow Wholesales",
                 "Phone": "+37062806085",
                 "DefaultAddress": "Technikos g. 4A, 51211 Kaunas LT",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1202",
+                "CustAcc": "1202",
                 "Name": "Owl Wholesales",
                 "Phone": "+37062469631",
                 "DefaultAddress": "Partizanų g. 21C, 49478 Kaunas LT",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1203",
+                "CustAcc": "1203",
                 "Name": "Bird Wholesales",
                 "Phone": "+37061609366",
                 "DefaultAddress": "Kęstučio g. 1, 56121 Kaišiadorys LT",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1204",
+                "CustAcc": "1204",
                 "Name": "Kingbird Wholesales",
                 "Phone": "+37062286606",
                 "DefaultAddress": "Sasnavos g. 74 Marijampolė,",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1205",
+                "CustAcc": "1205",
                 "Name": "Sunset Wholesales",
                 "Phone": "+37062262081",
                 "DefaultAddress": "Verebiejų k. Alytus r.,",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1301",
+                "CustAcc": "1301",
                 "Name": "Whale Wholesales",
                 "Phone": "+37062613023",
                 "DefaultAddress": "S. Nėries g. 66 F LT",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1302",
+                "CustAcc": "1302",
                 "Name": "Turtle Wholesales",
                 "Phone": "+37062280102",
                 "DefaultAddress": "Kuprioniškių k. Vilniaus r.,",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1303",
+                "CustAcc": "1303",
                 "Name": "Beaver Wholesales",
                 "Phone": "+37062315220",
                 "DefaultAddress": "Sedos g.19, 87113 Telšiai LT",
                 "Blocked": "0"
             },
             {
-                "custAcc": "1304",
+                "CustAcc": "1304",
                 "Name": "Otter Wholesales",
                 "Phone": "+37062877465",
                 "DefaultAddress": "",
                 "Blocked": "0"
             },
             {
-                "custAcc": "902302",
+                "CustAcc": "902302",
                 "Name": "Dolphin Wholesales",
                 "Phone": "+37062096407",
                 "DefaultAddress": "",
                 "Blocked": "0"
             },
             {
-                "custAcc": "SR001",
+                "CustAcc": "SR001",
                 "Name": "UAB \"SauSure\"",
                 "Phone": "+37062571126",
                 "DefaultAddress": "Baltijos Kaunas,",
                 "Blocked": "0"
             },
             {
-                "custAcc": "SR1001",
+                "CustAcc": "SR1001",
                 "Name": "SR klientas",
                 "Phone": "+37062160672",
                 "DefaultAddress": "V.Krėvės pr. 97 , 50369 Kaunas LT",

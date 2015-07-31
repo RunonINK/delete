@@ -14,14 +14,14 @@ mpointControllers.controller('CustomersList', ['$scope', 'customers', function($
     $scope.orderProp = 'Name';
 
 
-    $scope.sort = 'Name';
+    $scope.sort = 'CustAcc';
 
     $scope.toogleSort = function(value){
         $scope.sort = value;
     }
 
 }]);
-
+/*
 mpointControllers.controller('CustomerDetail', ['$scope', 'customers', '$stateParams', function($scope, customers, $stateParams) {
     customers.success(function(data) {
         $scope.customers = $stateParams.this.cust;
