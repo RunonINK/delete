@@ -4,25 +4,31 @@
 
       Search: <input ng-model="query"  placeholder="Search">
 
+  <div class="email ng-scope">
+    <a href="#/outbox/0">
+      <span class="from ng-binding">Shawn Carter</span><span class="subject ng-binding">Current state of mind</span><span class="date ng-binding">Jan 9, 2015</span>
+    </a>
+  </div>
 
-        <table class="table table-striped">
+        <table class="table table-striped table-hover">
           <thead>
           <tr>
-            <th>Kodas</th>
-            <th>Pavadimas</th>
-            <th class="hidden-lg">Tel.</th>
+            <th ng-click="toggleSort('CustAcc')"> Kodas {{newage.CustAcc}} </th>
+            <th><button ng-click="toggleSort('Name')">Pavadimas {{newage.Name}} </button>
+            </th>
+            <th class="hidden-lg" width="30">Tel.</th>
             <th class="hidden-xs hidden-md hidden-sm">Telefonas</th>
-            <th class="hidden-lg ">Adr.</th>
+            <th class="hidden-lg " width="30">Adr.</th>
             <th class="hidden-xs hidden-md hidden-sm">Adresas</th>
           </tr>
           </thead>
           <tbody>
-          <tr ng-repeat="cust in customers.Customers.CustomerList | filter:query" ui-sref="cust({ custacc: cust.CustAcc })">
+          <tr ng-repeat="cust in customers.Customers.CustomerList | filter:query | orderBy:sort" ui-sref="cust({ custacc: cust.CustAcc })">
             <td>{{cust.CustAcc}}</td>
             <td>{{cust.Name}}</td>
-            <td class="hidden-lg "><img  ng-src="img/call.png" width="24" height="24"></td>
+            <td class="hidden-lg" width="30"><img  ng-src="img/call.png" width="24" height="24"></td>
             <td class="hidden-xs hidden-md hidden-sm" >{{cust.Phone}}</td>
-            <td class="hidden-lg"><a href="http://www.google.lt"><img  ng-src="img/map.png" width="24" height="24"></a></td>
+            <td class="hidden-lg" width="30"><a href="http://www.google.lt"><img  ng-src="img/map.png" width="24" height="24"></a></td>
             <td class="hidden-xs hidden-md hidden-sm">{{cust.DefaultAddress}}</td>
 
           </tr>
