@@ -11,37 +11,13 @@ mpointControllers.controller('CustomersList', ['$scope', 'customers', function($
         $scope.customers = data;
     });
 
-    $scope.sort = 'CustAcc';
 
-    $scope.newage =
-        [
-            {
-                CustAcc: "a",
-                Name: ""
-            }
-        ]
-
-    $scope.nuu = function(paz){
-        return paz
-    }
-
-    $scope.toggleSort = function(value) {
-        $scope.sort = value;
-
-            if ($scope.newage[value] === '\u25E5'){
-                $scope.newage[value] = "\u25E2"
-            }
-
-
-        else
-            {
-            $scope.newage[value] = '\u25E5';
-
-        }
-
-    }
-
-    
+    $scope.predicate = 'CustAcc';
+    $scope.reverse = true;
+    $scope.order = function(predicate) {
+        $scope.reverse = ($scope.predicate === predicate) ? !$scope.reverse : false;
+        $scope.predicate = predicate;
+    };
 
 
 
